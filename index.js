@@ -74,14 +74,14 @@ ${data.desc}
 
 📰 *Group Link* :- https://chat.whatsapp.com/ECcDo6SuJbn0xb9gNLzrYP
 
-🔗 *Create By ᴠᴀᴊɪʀᴀ ʀᴀᴛʜɴᴀʏᴀᴋᴀ*
+🔗 *Create By KALINDU*
 
 ●━━━━━━━━━━━━━━━━━━━━━●`
      let newss = await news1.findOne({ id: '123' }) 
   
      if (!newss) { 
          await new news1({ id: '123', newsid: data.id, events:'true' }).save() 
-           await session.sendMessage("120363187231628287@g.us",{image:{url: data.image}, caption:mg},{ ephemeralExpiration: WA_DEFAULT_EPHEMERAL })
+           await session.sendMessage("120363162305531586@g.us",{image:{url: data.image}, caption:mg},{ ephemeralExpiration: WA_DEFAULT_EPHEMERAL })
      } else { 
          if(newss.newsid == data.id )  
           { 
@@ -89,7 +89,7 @@ ${data.desc}
           } 
           else{ 
              await news1.updateOne({ id: '123' }, { newsid : data.id, events:'true'}) 
-             await session.sendMessage("120363187231628287@g.us",{image:{url: data.image}, caption:mg},{ ephemeralExpiration: WA_DEFAULT_EPHEMERAL })
+             await session.sendMessage("120363162305531586@g.us",{image:{url: data.image}, caption:mg},{ ephemeralExpiration: WA_DEFAULT_EPHEMERAL })
           } 
   
      } 
