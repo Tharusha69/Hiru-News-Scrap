@@ -1,9 +1,15 @@
   {
- "name": "King-Vajira-QR ",  
+ "name": "HIRU-NEWS-BOT",  
     "description": "whatsapp md bot build with nodejs",  
-    "repository": "https://github.com/nipuna15/Blue-Lion-QR",  
-    "logo": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg",  
+    "repository": "https://github.com/MR-KALINDU/HIRU-NEWS-BOT",  
+    "logo": "https://telegra.ph/file/d6c84a358e7f19c9933d4.jpg",  
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],  
+    "env": {
+ "SESSION_ID": {
+    "description": "GIVE SESSION_ID AFTER QR SCAN...😊 "
+  }
+},
+    
     "buildpacks": [  
       {  
         "url": "heroku/nodejs"  
