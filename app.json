@@ -7,6 +7,9 @@
     "env": {
  "SESSION_ID": {
     "description": "GIVE SESSION_ID AFTER QR SCAN...😊 "
+   },
+  "MONGODB_URI": {
+    "description": "GIVE MONGODB URL(Required)"
   }
 },
     
